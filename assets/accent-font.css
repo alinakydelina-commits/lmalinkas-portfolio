@@ -1,0 +1,5 @@
+@font-face{font-family:"Russo One";src:url("fonts/russo-one.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
+:root{--accent-font:"Russo One",Arial,sans-serif}
+h1,h2,h3,.hero .sphere-title,.case-intro h1,.case-section h2,.case-section h3,.statement,.sound-modes h3,.profile-logo svg text,.profile-logo svg g,.slishkom-caption h3{font-family:var(--accent-font)!important;font-weight:400!important;font-synthesis:none}
+.hero .sphere-title{letter-spacing:-.025em;line-height:1.06}
+.bork-practice,.bork-module,.bork-number{font-family:var(--accent-font)!important;font-weight:400!important}
