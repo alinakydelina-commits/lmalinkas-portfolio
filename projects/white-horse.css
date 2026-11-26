@@ -1,0 +1,73 @@
+*{box-sizing:border-box}html,body{margin:0;padding:0;background:white}body{font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;color:#4a4a4a}p{margin:0}img{display:block;vertical-align:middle}#case-viewport{width:100%;overflow:hidden;position:relative;aspect-ratio:1920/11692}#case-artboard{width:1920px;height:11692px;transform-origin:top left;overflow:hidden}.case-return{position:fixed;z-index:20;top:20px;right:20px;padding:12px 18px;background:#111e;color:white;text-decoration:none;border:1px solid #ffffff50;border-radius:99px;font:14px/1.2 Arial,sans-serif}.case-return:hover{background:#333}.case-return:focus-visible{outline:3px solid #6190ff;outline-offset:3px}.case-footer{padding:28px 3%;background:#080808;display:flex;justify-content:space-between;color:white;font:14px/1.5 Arial,sans-serif}.case-footer a{color:inherit}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.n0{background:#fff;position:relative;width:100%;height:100%}
+.n1{position:absolute;height:1028px;left:82px;top:115px;width:1688px}
+.n2{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.n3{position:absolute;height:112.76%;left:-8.56%;max-width:none;top:0;width:115.2%}
+.n4{position:absolute;height:1105px;left:76px;top:115px;width:1700px}
+.n5{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.n6{position:absolute;display:contents;left:-133px;top:10668px}
+.n7{position:absolute;height:1024px;left:-133px;top:10668px;width:1536px}
+.n8{overflow-wrap:break-word;position:absolute;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;font-weight:400;line-height:0;left:972px;font-style:normal;color:#4a4a4a;font-size:30px;top:10890px;width:840px;white-space:pre-wrap}
+.n9{line-height:normal;margin-bottom:0}
+.n10{line-height:normal}
+.n11{transform:translateX(-50%);overflow-wrap:break-word;position:absolute;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;font-weight:700;line-height:normal;left:1325.5px;font-style:normal;color:#4a4a4a;font-size:30px;text-align:center;top:10789px;white-space:nowrap}
+.n12{position:absolute;display:contents;left:-4px;top:-56px}
+.n13{position:absolute;height:1251px;left:-4px;top:-56px;width:1924px}
+.n14{overflow-wrap:break-word;position:absolute;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;font-weight:400;line-height:normal;left:396px;font-style:normal;color:#020117;font-size:25px;top:1165px;white-space:nowrap}
+.n15{overflow-wrap:break-word;position:absolute;font-family:"Clear Sans",Arial,sans-serif;font-weight:700;line-height:normal;left:887px;font-style:normal;color:#faf9fa;font-size:22px;top:920px;white-space:nowrap}
+.n16{position:absolute;background:#fefefe;height:57px;left:-4px;top:10668px;width:1920px}
+.n17{position:absolute;height:59px;left:50px;top:48px;width:205px}
+.n18{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.n19{position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:116px;align-items:center;line-height:0;left:-7px;top:1355px;width:1932px}
+.n20{grid-template-columns:max-content;grid-template-rows:max-content;display:inline-grid;place-items:start;position:relative;flex-shrink:0}
+.n21{background:#bdc8fc;grid-column:1;height:2259px;margin-left:0;margin-top:0;position:relative;grid-row:1;width:1927px}
+.n22{grid-column:1;column-gap:7px;row-gap:7px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(4,minmax(0,1fr));height:1847.409px;margin-left:138px;margin-top:206px;position:relative;grid-row:1;width:1659.027px}
+.n23{grid-template-columns:max-content;grid-template-rows:max-content;display:inline-grid;justify-self:stretch;line-height:0;place-items:start;position:relative;align-self:stretch;flex-shrink:0}
+.n24{grid-column:1;height:456.602px;margin-left:0;margin-top:0;position:relative;grid-row:1;width:826.013px}
+.n25{background:#3c6698;grid-column:1;height:77.536px;margin-left:789.34px;margin-top:172.3px;position:relative;grid-row:1;width:27.109px}
+.n26{aspect-ratio:823/457;justify-self:stretch;position:relative;flex-shrink:0}
+.n27{position:absolute;height:101.61%;left:-0.19%;max-width:none;top:-0.35%;width:100.19%}
+.n28{aspect-ratio:1037/579;justify-self:stretch;position:relative;flex-shrink:0}
+.n29{position:absolute;height:101.04%;left:-0.19%;max-width:none;top:-1.04%;width:100.19%}
+.n30{aspect-ratio:823/460;justify-self:stretch;position:relative;flex-shrink:0}
+.n31{position:absolute;height:101.32%;left:-0.39%;max-width:none;top:-0.58%;width:100.77%}
+.n32{aspect-ratio:1030/581;justify-self:stretch;position:relative;flex-shrink:0}
+.n33{position:absolute;height:100.34%;left:0;max-width:none;top:-0.34%;width:100.58%}
+.n34{aspect-ratio:2074/1164;justify-self:stretch;position:relative;flex-shrink:0}
+.n35{aspect-ratio:1504/832;justify-self:stretch;position:relative;flex-shrink:0}
+.n36{aspect-ratio:1037/578;justify-self:stretch;position:relative;flex-shrink:0}
+.n37{position:absolute;height:101.21%;left:0;max-width:none;top:-1.21%;width:100%}
+.n38{overflow-wrap:break-word;grid-column:1;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;font-weight:700;line-height:normal;margin-left:138px;margin-top:119px;font-style:normal;position:relative;grid-row:1;color:#4a4a4a;font-size:30px;white-space:nowrap}
+.n39{grid-column:1;height:873px;margin-left:0;margin-top:526px;position:relative;grid-row:1;width:1456px}
+.n40{position:absolute;height:106.7%;left:-2.88%;max-width:none;top:-3.79%;width:113.7%}
+.n41{overflow-wrap:break-word;grid-column:1;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;font-weight:400;height:359px;margin-left:881px;margin-top:0;font-style:normal;position:relative;grid-row:1;color:#4a4a4a;font-size:0px;width:760px;white-space:pre-wrap}
+.n42{font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;font-weight:700;line-height:normal;margin-bottom:0;font-size:30px}
+.n43{line-height:normal;margin-bottom:0;font-size:30px}
+.n44{line-height:normal;font-size:30px}
+.n45{grid-column:1;grid-template-columns:max-content;grid-template-rows:max-content;display:inline-grid;margin-left:0;margin-top:0;place-items:start;position:relative;grid-row:1}
+.n46{background:#bdc8fc;grid-column:1;height:268px;margin-left:0;margin-top:0;position:relative;grid-row:1;width:1924px}
+.n47{overflow-wrap:break-word;grid-column:1;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;font-weight:500;height:41px;margin-left:368px;margin-top:105px;font-style:normal;position:relative;grid-row:1;color:#4a4a4a;font-size:0px;width:173px;white-space:pre-wrap}
+.n48{overflow-wrap:break-word;grid-column:1;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;font-weight:400;height:124px;margin-left:888px;margin-top:60px;font-style:normal;position:relative;grid-row:1;color:#4a4a4a;font-size:30px;width:958px;white-space:pre-wrap}
+.n49{grid-column:1;grid-template-columns:max-content;grid-template-rows:max-content;display:inline-grid;margin-left:502px;margin-top:400px;place-items:start;position:relative;grid-row:1}
+.n50{grid-column:1;height:307.245px;margin-left:0;margin-top:0;position:relative;grid-row:1;width:413.698px}
+.n51{grid-column:1;height:219.461px;margin-left:49.5px;margin-top:36.58px;position:relative;grid-row:1;width:313.967px}
+.n52{position:absolute;left:0;max-width:none;width:100%;height:100%;top:0}
+.n53{grid-column:1;height:307.245px;margin-left:444.73px;margin-top:0;position:relative;grid-row:1;width:474.275px}
+.n54{position:absolute;inset:-0.33% -0.21%}
+.n55{display:block;max-width:none;width:100%;height:100%}
+.n56{grid-column:1;height:117.046px;margin-left:573.67px;margin-top:45px;position:relative;grid-row:1;width:237.876px}
+.n57{position:absolute;height:187.5%;left:-29.19%;max-width:none;top:0;width:149.07%}
+.n58{grid-column:1;height:101.683px;margin-left:519px;margin-top:162.05px;position:relative;grid-row:1;width:307.318px}
+.n59{position:absolute;height:215.83%;left:0;max-width:none;top:-115.83%;width:115.38%}
+.n60{grid-column:1;height:1275px;margin-left:2px;margin-top:840px;position:relative;grid-row:1;width:1925px}
+.n61{background:#eaeaea;grid-column:1;height:1175px;margin-left:0;margin-top:0;position:relative;grid-row:1;width:1920px}
+.n62{grid-column:1;height:1013px;margin-left:45px;margin-top:81px;position:relative;grid-row:1;width:1069px}
+.n63{position:absolute;height:103.18%;left:-19.52%;max-width:none;top:-1.54%;width:134.13%}
+.n64{overflow-wrap:break-word;grid-column:1;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;font-weight:400;margin-left:1125px;margin-top:542px;font-style:normal;position:relative;grid-row:1;color:#4a4a4a;font-size:0px;width:644px;white-space:pre-wrap}
+.n65{grid-column:1;column-gap:7px;row-gap:7px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(3,minmax(0,1fr));height:1581px;margin-left:70px;margin-top:169px;padding:7px;position:relative;grid-row:1;width:1582px}
+.n66{aspect-ratio:2688/1792;justify-self:stretch;position:relative;flex-shrink:0}
+.n67{aspect-ratio:1344/896;justify-self:stretch;position:relative;flex-shrink:0}
+.n68{overflow-wrap:break-word;grid-column:1;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;font-weight:400;line-height:normal;margin-left:-35px;margin-top:0;font-style:normal;position:relative;grid-row:1;color:#4a4a4a;font-size:29px;text-align:center;text-wrap:balance;width:1785px}
+.n69{overflow-wrap:break-word;grid-column:1;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;font-weight:400;line-height:normal;margin-left:77px;margin-top:1815px;font-style:normal;position:relative;grid-row:1;color:#4a4a4a;font-size:30px;width:1575px;white-space:pre-wrap}
+/* Center the presentation photograph within the full 1920px case frame. */
+[data-node-id="1482:2629"]{margin-left:93.5px}
