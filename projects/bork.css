@@ -1,0 +1,68 @@
+.bork-case {
+  background: #fff;
+  color: #171717;
+  color-scheme: light;
+}
+
+.bork-case main {
+  padding-top: clamp(80px, 8vw, 106px);
+}
+
+.bork-intro {
+  font-size: clamp(16px, 1.55vw, 22px);
+  line-height: 1.45;
+}
+
+.bork-intro a {
+  text-decoration: underline;
+  text-underline-offset: .15em;
+}
+
+.bork-intro p:last-child {
+  margin-top: .65em;
+}
+
+.bork-task {
+  margin-block: clamp(40px, 6vw, 84px) clamp(28px, 4vw, 56px);
+}
+
+.bork-task h1 {
+  font-size: clamp(32px, 4.2vw, 58px);
+  line-height: 1.08;
+  letter-spacing: -.045em;
+}
+
+.bork-module {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 16px;
+  margin-block: .6em;
+  font-size: clamp(18px, 2.05vw, 29px);
+  line-height: 1.25;
+}
+
+.bork-number {
+  font-variant-numeric: tabular-nums;
+  color: #555;
+}
+
+.bork-description {
+  max-width: 66ch;
+  font-size: clamp(16px, 1.5vw, 22px);
+  line-height: 1.4;
+  text-wrap: pretty;
+}
+
+.bork-case .case-footer {
+  border-color: #17171733;
+  color: #555;
+}
+
+.bork-case .case-footer a {
+  color: #171717;
+}
+
+.bork-case a:focus-visible {
+  outline-color: #2f5bcc;
+}

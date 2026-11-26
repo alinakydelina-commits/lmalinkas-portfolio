@@ -1,0 +1,14 @@
+.internship-slides {
+  display: grid;
+  gap: clamp(8px, 1.2vw, 18px);
+  background-color: #050506;
+}
+
+.internship-slide {
+  /* The source export is 1192 × 15644 px. Each panel shows only its own rows. */
+  aspect-ratio: var(--slide-width, 1192) / var(--slide-height);
+  background-image: url("../assets/projects/internship/case.jpg");
+  background-repeat: no-repeat;
+  background-size: calc(100% * 1192 / var(--slide-width, 1192)) auto;
+  background-position: center calc(100% * var(--slide-start) / (15644 - var(--slide-height)));
+}

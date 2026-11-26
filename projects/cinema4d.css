@@ -1,0 +1,32 @@
+.cinema-case {
+  background: #fff;
+  color: #171616;
+}
+
+.cinema-page {
+  max-width: 1500px;
+  margin-inline: auto;
+}
+
+.cinema-page-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip-path: inset(50%);
+  overflow: hidden;
+}
+
+.cinema-frame {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cinema-case .case-footer a {
+  color: inherit;
+}
+
+.cinema-case .case-footer {
+  color: inherit;
+  border-color: #17161633;
+}

@@ -1,0 +1,32 @@
+.luna-mockup{margin-top:100px}.luna-mockup img{aspect-ratio:1440/968;object-fit:cover}.luna-character{width:98.333333%}.luna-character img{aspect-ratio:1416/944;object-fit:cover}.palette{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}.palette>div{height:25vw;border-radius:20px;padding:24px;display:flex;flex-direction:column;justify-content:end;gap:6px;text-transform:uppercase;font-size:14px;line-height:1.2}.palette small{font-size:11px}.luna-platform{padding-top:11.805556vw}.metaphor{padding-top:5vw;display:grid;grid-template-columns:1fr 1fr}.metaphor figure:first-child{background:#e9eef6}.metaphor figure:last-child{background:#dce3ee}.metaphor img{aspect-ratio:720/600;object-fit:contain}.metaphor-caption{padding-top:12px}.type-sample img{border-radius:24px}.wireframes{width:95.902778%;margin:auto}.wireframes img{aspect-ratio:1381/715;object-fit:cover}.sound-modes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}.sound-modes article{padding:28px 28px 32px;background:#101014;border-radius:24px}.sound-icon{height:6.666667vw;position:relative;overflow:hidden;margin-bottom:16px}.sound-icon img{position:absolute;max-width:none;object-fit:fill}.sound-modes h3{font:400 2.5vw/1.1 'Instrument Serif',Georgia,serif;margin-bottom:16px}.sound-modes p{font-size:16px;line-height:1.5;color:var(--case-muted)}.luna-renders{display:grid;grid-template-columns:717fr 723fr;align-items:start}.luna-renders figure:first-child img{aspect-ratio:717/797;object-fit:cover}.luna-renders figure:last-child img{aspect-ratio:723/800;object-fit:cover}.luna-wide img{aspect-ratio:1440/958;object-fit:cover}
+.luna .case-hero{aspect-ratio:2/1}
+
+.sound-modes article {
+  padding-inline: clamp(16px, 1.7vw, 24px);
+}
+
+.sound-modes h3 {
+  font-size: clamp(20px, 2.35vw, 34px);
+  white-space: nowrap;
+}
+
+.sound-modes p {
+  font-size: clamp(14px, 1.12vw, 16px);
+  text-wrap: balance;
+}
+
+.luna .sound-modes.content {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+@media (max-width: 1279px) {
+  .luna .sound-modes.content {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 490px) {
+  .luna .sound-modes.content {
+    grid-template-columns: 1fr;
+  }
+}
