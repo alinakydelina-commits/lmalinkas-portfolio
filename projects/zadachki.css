@@ -1,0 +1,37 @@
+.zadachki-case-content {
+  container-type: inline-size;
+  background: #f7f7f2;
+}
+
+.zadachki-mission {
+  padding: max(16px, 6.8cqw) calc(100% / 12) .7cqw;
+  color: #62625d;
+  font-size: clamp(1rem, 1.667cqw, 1.125rem);
+  line-height: 1.5;
+}
+
+@media (max-width: 650px) {
+  .zadachki-mission { padding-top: 88px; }
+}
+
+.zadachki-artwork-crop {
+  overflow: hidden;
+}
+
+.zadachki-case-artwork {
+  position: relative;
+  /* Crop the first 360 px, where the mission was printed in the image. */
+  margin-top: calc(-360 / 2880 * 100%);
+}
+
+.zadachki-video {
+  position: absolute;
+  /* The video slot is 2400 × 1180 at (240, 1268) in the 2880 × 7638 artwork. */
+  top: calc(1268 / 7638 * 100%);
+  left: calc(240 / 2880 * 100%);
+  width: calc(2400 / 2880 * 100%);
+  height: calc(1180 / 7638 * 100%);
+  border-radius: 2% / 4.07%;
+  background: #111;
+  object-fit: contain;
+}
