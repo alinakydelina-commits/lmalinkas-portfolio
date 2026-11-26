@@ -3,7 +3,7 @@
   body { -webkit-text-size-adjust: 100%; }
   main, section, aside, .project-list { min-width: 0; }
   .hero { min-height: 540px; height: 100svh; }
-  .hero .sphere-title { width: 82vw; max-width: 88%; top: 43%; }
+  .hero .sphere-title { width: 82vw; max-width: 88%; top: 43%; left: 9vw; transform: translateY(-50%); }
   .hero .hero-nav { top: auto; bottom: max(96px, 16svh); left: 9vw; right: 9vw; width: auto; transform: none; flex-direction: column; flex-wrap: nowrap; align-items: flex-start; justify-content: flex-start; gap: 0; padding: 0; }
   .hero .hero-nav a { width: auto; justify-content: flex-start; gap: 8px; min-height: 34px; font-size: 18px; }
   #projects { gap: 80px; }
@@ -16,7 +16,20 @@
   .profile-contacts svg { width: 24px; height: 24px; flex: none; stroke: #92928d; stroke-width: 1.7; }
   .profile-contacts .profile-channel { padding-inline-start: 38px; }
   .profile-contacts a[href^="mailto:"] { font-size: clamp(15px, 4.5vw, 20px); }
-  .resume-button { max-width: 400px; font-size: 16px; }
+  .profile-sidebar .resume-button {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    width: min(220px, 100%);
+    height: 48px;
+    margin-inline: auto;
+    padding: 0 24px;
+    font-size: 16px;
+    background: #fff;
+    color: #171717;
+  }
+  .profile-sidebar .resume-button .resume-fill,
+  .profile-sidebar .resume-button .resume-icon { display: none; }
   .resume-status { font-size: 14px; }
   #projects .project { border-radius: 6px; margin-bottom: 16px; }
   #projects .project .art { height: auto; aspect-ratio: 2 / 1; padding: 0; border-radius: 5px; }
