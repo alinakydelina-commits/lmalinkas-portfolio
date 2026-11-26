@@ -1,10 +1,22 @@
+.hero-role { display: none; }
 /* Phone and tablet layout. Desktop rules remain in their original stylesheets. */
 @media (max-width: 800px) {
   body { -webkit-text-size-adjust: 100%; }
   main, section, aside, .project-list { min-width: 0; }
   .hero { min-height: 540px; height: 100svh; }
   .hero .sphere-title { width: 82vw; max-width: 88%; top: 43%; left: 9vw; transform: translateY(-50%); }
-  .hero .hero-nav { top: auto; bottom: max(96px, 16svh); left: 9vw; right: 9vw; width: auto; transform: none; flex-direction: column; flex-wrap: nowrap; align-items: flex-start; justify-content: flex-start; gap: 0; padding: 0; }
+  .hero .hero-role {
+    display: block;
+    margin-top: 16px;
+    padding-left: 6px;
+    font-family: "Blue Hauss", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+  }
+  .hero .hero-nav { top: auto; bottom: max(96px, 16svh); left: calc(9vw + 4px); right: 9vw; width: auto; transform: none; flex-direction: column; flex-wrap: nowrap; align-items: flex-start; justify-content: flex-start; gap: 0; padding: 0; }
   .hero .hero-nav a { width: auto; justify-content: flex-start; gap: 8px; min-height: 34px; font-size: 18px; }
   #projects { gap: 80px; }
   #projects .profile-sidebar { position: static; padding: 0; width: 100%; }
