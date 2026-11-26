@@ -80,3 +80,37 @@
   .gallery-heading { left: 24px; top: 24px; }
   .gallery-controls { left: 24px; right: 24px; bottom: 16px; }
 }
+
+/* Readable case typography on phones. */
+@media (max-width: 800px) {
+  .case-intro h1, .yuh .case-intro h1,
+  .lumen-page h1, .ironov-intro h1, .dodo-hero h1 {
+    font-size: clamp(36px, 10vw, 48px);
+    line-height: 1.12;
+    letter-spacing: -.03em;
+  }
+  .case-section h2, .ironov-social h2, .lumen-page h2 {
+    font-size: clamp(28px, 7.5vw, 36px);
+    line-height: 1.18;
+    overflow-wrap: break-word;
+  }
+  .case-intro .lead, .case-intro .intro-copy,
+  .case-section .lead, .case-section#three-d .lead,
+  .research-columns li {
+    width: 100%;
+    max-width: 100%;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  .case-section { gap: 20px; padding-top: 48px; padding-bottom: 24px; }
+  .brand-platform article { padding: 24px; gap: 24px; }
+  .statement { font-size: 32px; line-height: 1.2; }
+  .luna .sound-modes h3 { white-space: normal; line-height: 1.25; }
+  .luna .sound-modes p { font-size: 16px; line-height: 1.5; }
+  .lumen-page figcaption { font-size: 14px; line-height: 1.5; }
+}
+
+.mobile-case-break { display: none; }
+@media (max-width: 800px) {
+  .mobile-case-break { display: initial; }
+}
