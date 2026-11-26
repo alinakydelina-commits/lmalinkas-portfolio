@@ -1,0 +1,17 @@
+.luminous-text-panel {
+  position: relative;
+  container-type: inline-size;
+}
+
+.luminous-audience {
+  position: absolute;
+  top: 47.25%;
+  left: 51.45%;
+  width: 45.2%;
+  min-height: 11.03cqw;
+  padding-left: .2cqw;
+  background: #f2efef;
+  color: #202020;
+  font-size: 1.46cqw;
+  line-height: 1.45;
+}
