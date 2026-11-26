@@ -1,0 +1,57 @@
+/* Phone and tablet layout. Desktop rules remain in their original stylesheets. */
+@media (max-width: 800px) {
+  body { -webkit-text-size-adjust: 100%; }
+  main, section, aside, .project-list { min-width: 0; }
+  .hero { min-height: 540px; height: 100svh; }
+  .hero .sphere-title { width: 82vw; max-width: 88%; top: 43%; }
+  .hero .hero-nav { top: auto; bottom: max(96px, 16svh); left: 9vw; right: 9vw; width: auto; transform: none; flex-direction: column; flex-wrap: nowrap; align-items: flex-start; justify-content: flex-start; gap: 0; padding: 0; }
+  .hero .hero-nav a { width: auto; justify-content: flex-start; gap: 8px; min-height: 34px; font-size: 18px; }
+  #projects { gap: 80px; }
+  #projects .profile-sidebar { position: static; padding: 0; width: 100%; }
+  #projects .profile-logo { width: min(76%, 280px); margin: 0 0 28px; }
+  .profile-description { font-size: clamp(20px, 5vw, 26px); line-height: 1.4; margin: 0 0 24px; }
+  .profile-description a { text-decoration: underline; text-underline-offset: 4px; }
+  .profile-contacts { display: grid; gap: 4px; margin-bottom: 48px; font-size: 20px; }
+  .profile-contacts a { display: flex; align-items: center; gap: 14px; min-height: 44px; }
+  .profile-contacts svg { width: 24px; height: 24px; flex: none; stroke: #92928d; stroke-width: 1.7; }
+  .profile-contacts .profile-channel { padding-inline-start: 38px; }
+  .profile-contacts a[href^="mailto:"] { font-size: clamp(15px, 4.5vw, 20px); }
+  .resume-button { max-width: 400px; font-size: 16px; }
+  .resume-status { font-size: 14px; }
+  #projects .project { border-radius: 6px; margin-bottom: 16px; }
+  #projects .project .art { height: auto; aspect-ratio: 2 / 1; padding: 0; border-radius: 5px; }
+  #projects .project-fokus { border-radius: 0; border-color: #5700ec; }
+  #projects .project .art.fokus-cover { aspect-ratio: 1756 / 988; border-radius: 0; background: #5700ec; }
+  #projects .project-placeholder-pair { gap: 12px; }
+  #projects .project-placeholder-pair > .project { margin: 0; }
+  .project-cover-year { font-size: 12px; inset-block-start: 10px; inset-inline-end: 12px; }
+  .project-cover-meta { gap: 8px; }
+  .education-stage { padding-block: 32px; }
+  .education-stage > h2 { font-size: clamp(26px, 7vw, 36px); margin-bottom: 24px; }
+  .education-viewport { overflow-x: auto; scroll-snap-type: x proximity; padding-bottom: 16px; }
+  .education-track { flex-wrap: nowrap; width: max-content; gap: 16px; }
+  .education-card { scroll-snap-align: start; }
+  .about-section { padding-block: 48px; }
+  .about-section > h2 { margin-bottom: 28px; }
+  .about-layout { grid-template-columns: minmax(0, 1fr); }
+  .personal-gallery { min-height: 400px; }
+  .gallery-controls button { min-height: 44px; }
+  #skillz article { padding: 24px; }
+  #skillz h3 { font-size: 26px; }
+  #skillz p { font-size: 17px; }
+  .case-close { top: max(12px, env(safe-area-inset-top)); right: 12px; min-height: 44px; padding: 10px 14px; gap: 10px; }
+  .case-intro { padding-top: 80px; gap: 24px; }
+  .case-intro h1 { font-size: clamp(42px, 11vw, 76px); overflow-wrap: anywhere; }
+  .case-nav a { min-height: 44px; display: inline-flex; align-items: center; }
+  .case-footer { flex-wrap: wrap; gap: 16px; }
+  .case-footer a { min-height: 44px; display: inline-flex; align-items: center; }
+  .lumen-two { grid-template-columns: minmax(0, 1fr); }
+  body > footer > span:last-child { display: none; }
+}
+@media (max-width: 540px) {
+  #projects .project-placeholder-pair { aspect-ratio: auto; grid-template-columns: minmax(0, 1fr); }
+  #projects .project-placeholder-pair > .project { aspect-ratio: 1; }
+  .personal-gallery { min-height: 360px; }
+  .gallery-heading { left: 24px; top: 24px; }
+  .gallery-controls { left: 24px; right: 24px; bottom: 16px; }
+}

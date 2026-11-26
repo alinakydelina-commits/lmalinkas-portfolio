@@ -53,7 +53,7 @@ function renderAchievements() {
 }
 
 function measureAchievements() {
-  if (!reduceAchievementsMotion.matches) {
+  if (!reduceAchievementsMotion.matches && window.innerWidth > 800) {
     achievements.classList.add('is-scroll-driven');
     achievementsPinTop = parseFloat(getComputedStyle(achievementsStage).top);
     achievementsWidth = Math.max(0, achievementsTrack.scrollWidth - achievementsViewport.clientWidth);
@@ -105,3 +105,23 @@ paintingArrows.forEach(arrow => {
 paintingTrack.addEventListener('scroll', updatePaintingArrows, { passive: true });
 new ResizeObserver(updatePaintingArrows).observe(paintingTrack);
 updatePaintingArrows();
+
+// Keep the reading and keyboard order aligned with the mobile layout.
+const mobileLayout = matchMedia('(max-width: 800px)');
+const aboutSection = document.querySelector('#about');
+const skillsSection = document.querySelector('#skillz');
+const aboutNavLink = document.querySelector('.hero-nav a[href="#about"]');
+const skillsNavLink = document.querySelector('.hero-nav a[href="#skillz"]');
+
+function arrangeMobileSections() {
+  if (mobileLayout.matches) {
+    skillsSection.before(aboutSection);
+    skillsNavLink.before(aboutNavLink);
+  } else {
+    aboutSection.before(skillsSection);
+    aboutNavLink.before(skillsNavLink);
+  }
+}
+
+mobileLayout.addEventListener('change', arrangeMobileSections);
+arrangeMobileSections();
